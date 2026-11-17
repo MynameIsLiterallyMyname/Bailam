@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scary Monster</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <!-- menu -->
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <button class="btn-solid theme-primary" type="button" data-bs-toggle="menu" aria-expanded="false">Main</button>
+                <div class="menu">
+                    <a class="menu-item" href="#">Menu item 1</a>
+                    <a class="menu-item" href="#">Menu item 2</a>
+                    <a class="menu-item" href="#">Menu item 3</a>
+                </div>
+                <button type="button" class="btn-solid theme-primary">Shop</button>
+                <button type="button" class="btn-solid theme-primary">Products</button>
+                <button type="button" class="btn-solid theme-primary">About</button>
+            </div>
+            <div class="col-5 bg-primary"></div>
+            <div class="col-2">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                </div>
+            </div>
+            <div class="col-1">
+                <button type="button" class="btn-outline theme-primary">Search</button>
+            </div>
+        </div>
+    </div>
+    <!-- carousel -->
+    <div id="carouselStackedIndicators" class="carousel slide">
+        <div class="carousel-inner rounded-5">
+            <div class="carousel-item active">
+                <img src="https://via.placeholder.com/1600x625" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://via.placeholder.com/1600x625" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://via.placeholder.com/1600x625" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <div class="d-flex justify-content-between align-items-center">
+        <div>
+            <button class="btn-icon btn-sm" type="button" data-bs-target="#carouselStackedIndicators" data-bs-slide="prev">
+                <span class="carousel-icon-prev" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="btn-icon btn-sm" type="button" data-bs-target="#carouselStackedIndicators" data-bs-slide="next">
+                <span class="carousel-icon-next" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselStackedIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselStackedIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselStackedIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+    </div>
+    <!-- card -->
+    <div class="container text-center">
+        <div class="row row-cols-2 lg:row-cols-5 g-2 lg:g-3">
+            <div class="col">
+                <div class="p-3">
+                    <section class="card" style="max-width: 320px">
+                        <img src="https://via.placeholder.com/220x220" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title">Bakery&Biscuits</h4>
+                            <p class="card-text">NutriChoice Disgestive</p>
+                            <div>
+                                    <i class="bi bi-star-fill" style="color: gold"></i>
+                                    <i class="bi bi-star-fill" style="color: gold"></i>
+                                    <i class="bi bi-star-fill" style="color: gold"></i>
+                                    <i class="bi bi-star-fill" style="color: gold"></i>
+                                    <i class="bi bi-star-half" style="color: gold"></i>
+                                </div>
+                            <div class="d-flex flex-row justify-content-between align-items-center">
+                                <div>$18</div>
+                                <div>
+                                    <button type="button" class="btn-solid theme-primary">+Add</button>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="col">
+                <div class="p-3">
+                    <section class="card" style="max-width: 320px">
+                        <img src="https://via.placeholder.com/220x220" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title">Bakery&Biscuits</h4>
+                            <p class="card-text">NutriChoice Disgestive</p>
+                            <div>
+                                    <i class="bi bi-star-fill" style="color: gold"></i>
+                                    <i class="bi bi-star-fill" style="color: gold"></i>
+                                    <i class="bi bi-star-fill" style="color: gold"></i>
+                                    <i class="bi bi-star-fill" style="color: gold"></i>
+                                    <i class="bi bi-star-half" style="color: gold"></i>
+                                </div>
+                            <div class="d-flex flex-row justify-content-between align-items-center">
+                                <div>$18</div>
+                                <div>
+                                    <button type="button" class="btn-solid  theme-primary">+Add</button>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="col">
+                <div class="p-3">
+                    <section class="card" style="max-width: 320px">
+                        <img src="https://via.placeholder.com/220x220" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title">Bakery&Biscuits</h4>
+                            <p class="card-text">NutriChoice Disgestive</p>
+                            <div>
+                                    <i class="bi bi-star-fill" style="color: gold"></i>
+                                    <i class="bi bi-star-fill" style="color: gold"></i>
+                                    <i class="bi bi-star-fill" style="color: gold"></i>
+                                    <i class="bi bi-star-fill" style="color: gold"></i>
+                                    <i class="bi bi-star-half" style="color: gold"></i>
+                                </div>
+                            <div class="d-flex flex-row justify-content-between align-items-center">
+                                <div>$18</div>
+                                <div>
+                                    <button type="button" class="btn-solid  theme-primary">+Add</button>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="col">
+                <div class="p-3">
+                    <section class="card" style="max-width: 320px">
+                        <img src="https://via.placeholder.com/220x220" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title">Bakery&Biscuits</h4>
+                            <p class="card-text">NutriChoice Disgestive</p>
+                            <div>
+                                    <i class="bi bi-star-fill" style="color: gold"></i>
+                                    <i class="bi bi-star-fill" style="color: gold"></i>
+                                    <i class="bi bi-star-fill" style="color: gold"></i>
+                                    <i class="bi bi-star-fill" style="color: gold"></i>
+                                    <i class="bi bi-star-half" style="color: gold"></i>
+                                </div>
+                            <div class="d-flex flex-row justify-content-between align-items-center">
+                                <div>$18</div>
+                                <div>
+                                    <button type="button" class="btn-solid  theme-primary">+Add</button>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="col">
+                <div class="p-3">
+                    <section class="card" style="max-width: 320px">
+                        <img src="https://via.placeholder.com/220x220" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title">Bakery&Biscuits</h4>
+                            <p class="card-text">NutriChoice Disgestive</p>
+                            <div>
+                                    <i class="bi bi-star-fill" style="color: gold"></i>
+                                    <i class="bi bi-star-fill" style="color: gold"></i>
+                                    <i class="bi bi-star-fill" style="color: gold"></i>
+                                    <i class="bi bi-star-fill" style="color: gold"></i>
+                                    <i class="bi bi-star-half" style="color: gold"></i>
+                                </div>
+                            <div class="d-flex flex-row justify-content-between align-items-center">
+                                <div>$18</div>
+                                <div>
+                                    <button type="button" class="btn-solid  theme-primary">+Add</button>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="col">
+                <div class="p-3">
+                    <section class="card" style="max-width: 320px">
+                        <img src="https://via.placeholder.com/220x220" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title">Bakery&Biscuits</h4>
+                            <p class="card-text">NutriChoice Disgestive</p>
+                            <div>
+                                    <i class="bi bi-star-fill" style="color: gold"></i>
+                                    <i class="bi bi-star-fill" style="color: gold"></i>
+                                    <i class="bi bi-star-fill" style="color: gold"></i>
+                                    <i class="bi bi-star-fill" style="color: gold"></i>
+                                    <i class="bi bi-star-half" style="color: gold"></i>
+                                </div>
+                            <div class="d-flex flex-row justify-content-between align-items-center">
+                                <div>$18</div>
+                                <div>
+                                    <button type="button" class="btn-solid  theme-primary">+Add</button>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="col">
+                <div class="p-3">
+                    <section class="card" style="max-width: 320px">
+                        <img src="https://via.placeholder.com/220x220" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title">Bakery&Biscuits</h4>
+                            <p class="card-text">NutriChoice Disgestive</p>
+                            <div>
+                                    <i class="bi bi-star-fill" style="color: gold"></i>
+                                    <i class="bi bi-star-fill" style="color: gold"></i>
+                                    <i class="bi bi-star-fill" style="color: gold"></i>
+                                    <i class="bi bi-star-fill" style="color: gold"></i>
+                                    <i class="bi bi-star-half" style="color: gold"></i>
+                                </div>
+                            <div class="d-flex flex-row justify-content-between align-items-center">
+                                <div>$18</div>
+                                <div>
+                                    <button type="button" class="btn-solid  theme-primary">+Add</button>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="col">
+                <div class="p-3">
+                    <section class="card" style="max-width: 320px">
+                        <img src="https://via.placeholder.com/220x220" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title">Bakery&Biscuits</h4>
+                            <p class="card-text">NutriChoice Disgestive</p>
+                            <div>
+                                    <i class="bi bi-star-fill" style="color: gold"></i>
+                                    <i class="bi bi-star-fill" style="color: gold"></i>
+                                    <i class="bi bi-star-fill" style="color: gold"></i>
+                                    <i class="bi bi-star-fill" style="color: gold"></i>
+                                    <i class="bi bi-star-half" style="color: gold"></i>
+                                </div>
+                            <div class="d-flex flex-row justify-content-between align-items-center">
+                                <div>$18</div>
+                                <div>
+                                    <button type="button" class="btn-solid  theme-primary">+Add</button>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="col">
+                <div class="p-3">
+                    <section class="card" style="max-width: 320px">
+                        <img src="https://via.placeholder.com/220x220" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title">Bakery&Biscuits</h4>
+                            <p class="card-text">NutriChoice Disgestive</p>
+                            <div>
+                                    <i class="bi bi-star-fill" style="color: gold"></i>
+                                    <i class="bi bi-star-fill" style="color: gold"></i>
+                                    <i class="bi bi-star-fill" style="color: gold"></i>
+                                    <i class="bi bi-star-fill" style="color: gold"></i>
+                                    <i class="bi bi-star-half" style="color: gold"></i>
+                                </div>
+                            <div class="d-flex flex-row justify-content-between align-items-center">
+                                <div>$18</div>
+                                <div>
+                                    <button type="button" class="btn-solid  theme-primary">+Add</button>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="col">
+                <div class="p-3">
+                    <section class="card" style="max-width: 320px">
+                        <img src="https://via.placeholder.com/220x220" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title">Bakery&Biscuits</h4>
+                            <p class="card-text">NutriChoice Disgestive</p>
+                            <div>
+                                    <i class="bi bi-star-fill" style="color: gold"></i>
+                                    <i class="bi bi-star-fill" style="color: gold"></i>
+                                    <i class="bi bi-star-fill" style="color: gold"></i>
+                                    <i class="bi bi-star-fill" style="color: gold"></i>
+                                    <i class="bi bi-star-half" style="color: gold"></i>
+                                </div>
+                            <div class="d-flex flex-row justify-content-between align-items-center">
+                                <div>$18</div>
+                                <div>
+                                    <button type="button" class="btn-solid  theme-primary">+Add</button>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                <p class="mb-0">@ Copyright 2026</p>
+            </div>
+            <div class="col-3">
+                <h6>Section</h6>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-3 bg-primary">n</div>
+            <div class="col-3 bg-danger">n</div>
+        </div>
+    </div>
+<script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>
+</body>
+</html>
